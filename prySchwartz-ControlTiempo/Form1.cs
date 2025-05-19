@@ -51,5 +51,11 @@ namespace prySchwartz_ControlTiempo
                 MessageBox.Show($"Pasaron {segundos} segundos.", "Tiempo transcurrido");
             }
         }
+
+        private void personalizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAuditoria auditoria = new frmAuditoria();
+            auditoria.ShowDialog();
+        }
     }
 }
